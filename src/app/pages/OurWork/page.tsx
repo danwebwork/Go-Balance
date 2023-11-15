@@ -27,7 +27,7 @@ export default function OurWork(){
                            </div>
                          </div>
                    </div>
-              
+{/*               
               <div className="items-center bg-white flex w-full flex-col px-5 py-28 max-md:max-w-full max-md:py-24">
                 <div className="mb-0 w-full max-w-[1312px] max-md:max-w-full max-md:mb-2.5">
                   <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -415,7 +415,7 @@ export default function OurWork(){
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="items-stretch bg-white flex w-full flex-col px-16 py-20 max-md:max-w-full max-md:px-5">
                 <Footer />
               </div>
