@@ -125,7 +125,7 @@ export default function App() {
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <div id="smooth-content" className="flex grow flex-col max-md:mt-10">
-            <div className=' overflow-hidden w-full h-full'>
+             <div className=' overflow-hidden w-full h-full'>
               <Image
                 width={700}
                 height={500}
@@ -137,44 +137,44 @@ export default function App() {
               />
               </div>
               <div className="items-stretch self-stretch flex flex-col mt-8">
-              <div className="text-black text-2xl font-bold leading-8">
-                <h3>Long heading is what you see here in this feature section</h3>
+                 <div className="text-black text-2xl font-bold leading-8">
+                   <h3>Long heading is what you see here in this feature section</h3>
+                    </div>
+                      <div className="text-black text-base leading-6 mt-4">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                     </div>
                  </div>
-                   <div className="text-black text-base leading-6 mt-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Suspendisse varius enim in eros elementum tristique. Duis
-                     cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                  </div>
-              </div>
               <div className="justify-center items-stretch flex w-28 max-w-full gap-2 mt-8">
-                 <Button/>
+           <Button/>
+        </div>
+      </div>
+    </div>
+    <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+     <div className="flex grow flex-col max-md:mt-10 overflow-hidden">
+      <div className=' overflow-hidden w-full h-full'>
+        <Image
+            width={700}
+            height={500}
+            quality={100}
+            priority={false}
+            alt='image'
+            src="/home/calango-São-joaquim.jpg"
+            className="box box-c aspect-[1.69] object-cover object-center w-full self-stretch overflow-hidden hover:scale-110 ease-in-out duration-500"
+            />
               </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="flex grow flex-col max-md:mt-10 overflow-hidden">
-            <div className=' overflow-hidden w-full h-full'>
-             <Image
-                 width={700}
-                 height={500}
-                 quality={100}
-                 priority={false}
-                 alt='image'
-                 src="/home/calango-São-joaquim.jpg"
-                 className="box box-c aspect-[1.69] object-cover object-center w-full self-stretch overflow-hidden hover:scale-110 ease-in-out duration-500"
-                />
-              </div>
-            <div className="items-stretch self-stretch flex flex-col mt-8">
-              <div className="text-black text-2xl font-bold leading-8">
-                <h3>Long heading is what you see here in this feature section</h3>
-                 </div>
-                   <div className="text-black text-base leading-6 mt-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Suspendisse varius enim in eros elementum tristique. Duis
-                     cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                  </div>
-                </div>
-              <div className="justify-center items-stretch flex w-28 max-w-full gap-2 mt-8">
+                <div className="items-stretch self-stretch flex flex-col mt-8">
+                  <div className="text-black text-2xl font-bold leading-8">
+                    <h3>Long heading is what you see here in this feature section</h3>
+                     </div>
+                       <div className="text-black text-base leading-6 mt-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Suspendisse varius enim in eros elementum tristique. Duis
+                         cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                      </div>
+                    </div>
+                  <div className="justify-center items-stretch flex w-28 max-w-full gap-2 mt-8">
                 <Button/>
               </div>
             </div>
@@ -190,11 +190,11 @@ export default function App() {
                   src="/home/Stingless-Bee-Breeding-in-the-Trocano-Araretama-Project.jpeg"
                   alt='image'
                   className="box box-c aspect-[1.69] object-cover object-center w-full self-stretch overflow-hidden hover:scale-110 ease-in-out duration-500"
-                />
+                 />
                 </div>
               <div className="items-stretch self-stretch flex flex-col mt-8">
             <div className="text-black text-2xl font-bold leading-8">
-                  <h3>Long heading is what you see here in this feature section</h3>
+            <h3>Long heading is what you see here in this feature section</h3>
               </div>
                 <div className="text-black text-base leading-6 mt-4">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -203,7 +203,7 @@ export default function App() {
                 </div>
               </div>
               <div className="justify-center items-stretch flex w-32 max-w-full gap-2 mt-8">
-                 <Button/>
+              <Button/>
               </div>
             </div>
           </div>
